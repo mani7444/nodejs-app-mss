@@ -12,6 +12,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
      "sonar": "node sonar-project.js"
+     "prepare": "husky install",
   },
   "dependencies": {
     "cfenv": "^1.1.0",
@@ -35,4 +36,9 @@
   ],
   "author": "Mithun Reddy Lacchannagari",
   "license": "MIT"
+}
+{
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
